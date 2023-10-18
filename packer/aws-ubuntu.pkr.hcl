@@ -56,7 +56,6 @@ provisioner "shell" {
     "npm install sequelize --save",
     "sudo npm install -g sequelize-cli",
     "npm install express --save",
-    "sudo -i -u postgres createdb postgres",
     "sudo -u postgres psql -c \"ALTER USER postgres WITH PASSWORD 'shubhi2304';\"",
     "npm init -y"
   ]
