@@ -45,6 +45,7 @@ build {
     generated =true
   }
 
+
   provisioner "shell" {
     inline = [
       "#!/bin/bash",
